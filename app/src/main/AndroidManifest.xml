@@ -27,7 +27,11 @@
         <activity android:name=".RequestActivity">
         </activity>
         <activity android:name=".RequestWriteActivity">
-    </activity>
+        </activity>
+        <activity android:name=".ImageActivity">
+        </activity>
+        <activity android:name=".ImageWriteActivity">
+        </activity>
 
     </application>
 

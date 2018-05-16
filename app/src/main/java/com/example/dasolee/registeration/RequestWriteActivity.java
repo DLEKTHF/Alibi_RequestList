@@ -54,6 +54,7 @@ public class RequestWriteActivity extends AppCompatActivity {
                                 Toast.makeText(getApplicationContext(), "게시글 등록에 성공했습니다", Toast.LENGTH_LONG).show();
                                 Intent intent = new Intent(getApplicationContext(), RequestActivity.class);
                                 startActivity(intent);
+                                finish();
 
                             } else {
 

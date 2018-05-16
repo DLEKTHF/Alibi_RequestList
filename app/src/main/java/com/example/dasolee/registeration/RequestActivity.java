@@ -51,6 +51,7 @@ public class RequestActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), RequestWriteActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
